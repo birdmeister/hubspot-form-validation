@@ -8,6 +8,7 @@
       const field1 = document.getElementById("[field1 id]") // the id of a form field can be found using Inspect in the browser
       const field2 = document.getElementById("[field2 id]")
 
+      // Validator for field1
       function validator1() {
         const value1 = field1.value;
         const value2 = field2.value;
@@ -32,6 +33,7 @@
         return isValid;
       }
 
+      // Validator for field2
       function validator2() {
         const value1 = field1.value;
         const value2 = field2.value;
@@ -54,9 +56,11 @@
         return isValid;
       }
 
+      // Add listeners when the contents for field 1 and field2 changes
       field1.addEventListener("change", validator1);
       field2.addEventListener("change", validator2);
 
+      // Remove any displayed error message when the user starts changing the contents for field 1 and field 2
       field1.addEventListener("input", (event) => {
         field1.setCustomValidity("");
         field1.reportValidity();
@@ -67,6 +71,7 @@
         field2.reportValidity();
       });
 
+      // Add listener when the form is being submitted
       document.querySelector("[type='submit']").addEventListener("click", function(event) {
         
         // Run both validations again when submitting the form
