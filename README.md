@@ -18,6 +18,23 @@ When we need more complex client-side validations, we need to write these oursel
 
 ## Embedding the form
 
+## Example Use Case
+The form has 2 fields (field1 and field2). Both fields can contain strings. The following custom validations are needed, in addition to both fields being required.
+
+Field1
+- Should be all numbers
+- Should be 8 characters
+- Should not be identical to Field2
+
+Field2
+- Should be all numbers
+- Should not be identical to Field1
+
 ## Adding custom validations to the form
 
 ## Styling the form
+
+
+
+## References
+1. How to customize the form embed code: https://legacydocs.hubspot.com/docs/methods/forms/advanced_form_options
