@@ -1,5 +1,5 @@
 # HubSpot form validation
-The file ' ' shows an example of HubSpot form field validations using JavaScript (without jQuery).
+This file [a link](https://github.com/birdmeister/hubspot-form-validation/blob/main/hubspot-form-validation-example.js) shows an example of HubSpot form field validations using JavaScript (without jQuery).
 
 HubSpot is a great tool for creating forms using drag and drop. For each field on the form, the following settings are available:
 - Label
