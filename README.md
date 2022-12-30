@@ -33,8 +33,10 @@ Field2
 ## Adding custom validations to the form
 
 ## Styling the form
+When calling 'hbspt.forms'create', the field 'cssRequired' need to contain styling using CSS. By using 'Raw HTML' the CSS is not carried over to the form.
 
-
+## Outstanding work
+- Instead of using 'setCustomValidity' show the error message where HubSpot shows the error message (help needed)
 
 ## References
 1. How to customize the form embed code: https://legacydocs.hubspot.com/docs/methods/forms/advanced_form_options
