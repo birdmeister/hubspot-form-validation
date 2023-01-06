@@ -1,4 +1,5 @@
-<script src="//js-eu1.hsforms.net/forms/embed/v2.js"> // dependent on your portal
+<script src="//js-eu1.hsforms.net/forms/embed/v2.js"></script> // dependent on your portal
+<script>
   hbspt.forms.create({
     region: "[your region id]", // only needed for some portals, for instance 'eu1', otherwise omit
     portalId: "[your portal id]",
